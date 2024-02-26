@@ -1,0 +1,156 @@
+0000.006 () Opened log file at time: Mon, 26 Feb 2024 12:57:29 +0000 on http://localhost:8080/ali-portfolio
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.12 (apache2handler, Windows NT WANO 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: fr_FR Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 82.5M | 86M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 53666.6 MB
+0000.018 () Restore setup, now closing connection and starting restore over AJAX.
+0000.005 () Opened log file at time: Mon, 26 Feb 2024 12:57:30 +0000 on http://localhost:8080/ali-portfolio
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.12 (apache2handler, Windows NT WANO 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: fr_FR Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 79.7M | 84M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 53666.1 MB
+0000.012 () Ensuring WP_Filesystem is setup for a restore
+0000.013 () WP_Filesystem is setup and ready for a restore
+0000.016 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_simply_static_pages","wp_wpforms_payment_meta","wp_wpforms_payments","wp_wpforms_tasks_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.018 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\ali-portfolio\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.027 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.029 () Entity: db
+0000.029 () restore_backup(backup_file=backup_2024-02-26-1224_Portfolio_c3f7067588cb-db.gz, type=db, info=a:0:{}, last_one=)
+0000.030 () Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-db.gz, 2.4 Mb)
+0000.030 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\ali-portfolio\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.032 () Database successfully unpacked
+0000.033 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.033 () Using direct MySQL access; value of use_mysqli is: 1
+0000.034 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.078 () Max packet size: 32 MB
+0000.078 () Entering maintenance mode
+0000.078 () Activation du mode maintenance&#8230;
+0000.100 () Backup of: http://localhost:8080/ali-portfolio
+0000.102 () Content URL: http://localhost:8080/ali-portfolio/wp-content
+0000.102 () Uploads URL: http://localhost:8080/ali-portfolio/wp-content/uploads
+0000.102 () Old table prefix: wp_
+0000.102 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.103 () Site information: multisite=0
+0000.103 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.105 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.106 () New table prefix: 36_
+0000.108 () Processing table (InnoDB): wp_options - will restore as: 36_options
+0000.527 () Atomic restore: dropping original table (wp_options)
+0000.535 () Atomic restore: renaming new table (36_options) to final table name (wp_options)
+0000.545 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.637 () Processing table (InnoDB): wp_users - will restore as: 36_users
+0000.654 () Atomic restore: dropping original table (wp_users)
+0000.660 () Atomic restore: renaming new table (36_users) to final table name (wp_users)
+0000.665 () Processing table (InnoDB): wp_usermeta - will restore as: 36_usermeta
+0000.681 () Atomic restore: dropping original table (wp_usermeta)
+0000.691 () Atomic restore: renaming new table (36_usermeta) to final table name (wp_usermeta)
+0000.698 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: 36_actionscheduler_actions
+0000.726 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.733 () Atomic restore: renaming new table (36_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.742 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: 36_actionscheduler_claims
+0000.754 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.760 () Atomic restore: renaming new table (36_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.766 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: 36_actionscheduler_groups
+0000.781 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.790 () Atomic restore: renaming new table (36_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.796 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: 36_actionscheduler_logs
+0000.815 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.821 () Atomic restore: renaming new table (36_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.826 () Processing table (InnoDB): wp_commentmeta - will restore as: 36_commentmeta
+0000.835 () Atomic restore: dropping original table (wp_commentmeta)
+0000.842 () Atomic restore: renaming new table (36_commentmeta) to final table name (wp_commentmeta)
+0000.847 () Processing table (InnoDB): wp_comments - will restore as: 36_comments
+0000.864 () Atomic restore: dropping original table (wp_comments)
+0000.868 () Atomic restore: renaming new table (36_comments) to final table name (wp_comments)
+0000.875 () Processing table (InnoDB): wp_links - will restore as: 36_links
+0000.884 () Atomic restore: dropping original table (wp_links)
+0000.890 () Database queries processed: 50 in 0.86 seconds
+0000.890 () Atomic restore: renaming new table (36_links) to final table name (wp_links)
+0000.895 () Processing table (InnoDB): wp_postmeta - will restore as: 36_postmeta
+0001.504 () Atomic restore: dropping original table (wp_postmeta)
+0001.522 () Atomic restore: renaming new table (36_postmeta) to final table name (wp_postmeta)
+0001.532 () Processing table (InnoDB): wp_posts - will restore as: 36_posts
+0001.749 () Atomic restore: dropping original table (wp_posts)
+0001.761 () Atomic restore: renaming new table (36_posts) to final table name (wp_posts)
+0001.770 () Processing table (InnoDB): wp_term_relationships - will restore as: 36_term_relationships
+0001.796 () Atomic restore: dropping original table (wp_term_relationships)
+0001.808 () Atomic restore: renaming new table (36_term_relationships) to final table name (wp_term_relationships)
+0001.813 () Processing table (InnoDB): wp_term_taxonomy - will restore as: 36_term_taxonomy
+0001.831 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.837 () Atomic restore: renaming new table (36_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.843 () Processing table (InnoDB): wp_termmeta - will restore as: 36_termmeta
+0001.860 () Atomic restore: dropping original table (wp_termmeta)
+0001.866 () Atomic restore: renaming new table (36_termmeta) to final table name (wp_termmeta)
+0001.874 () Processing table (InnoDB): wp_terms - will restore as: 36_terms
+0001.887 () Database queries processed: 100 in 1.85 seconds
+0001.890 () Atomic restore: dropping original table (wp_terms)
+0001.897 () Atomic restore: renaming new table (36_terms) to final table name (wp_terms)
+0001.902 () Processing table (InnoDB): wp_e_events - will restore as: 36_e_events
+0001.913 () Atomic restore: dropping original table (wp_e_events)
+0001.918 () Atomic restore: renaming new table (36_e_events) to final table name (wp_e_events)
+0001.925 () Processing table (InnoDB): wp_simply_static_pages - will restore as: 36_simply_static_pages
+0002.176 () Atomic restore: dropping original table (wp_simply_static_pages)
+0002.180 () Atomic restore: renaming new table (36_simply_static_pages) to final table name (wp_simply_static_pages)
+0002.184 () Processing table (InnoDB): wp_wpforms_payment_meta - will restore as: 36_wpforms_payment_meta
+0002.195 () Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0002.198 () Atomic restore: renaming new table (36_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0002.204 () Processing table (InnoDB): wp_wpforms_payments - will restore as: 36_wpforms_payments
+0002.218 () Atomic restore: dropping original table (wp_wpforms_payments)
+0002.223 () Atomic restore: renaming new table (36_wpforms_payments) to final table name (wp_wpforms_payments)
+0002.228 () Processing table (InnoDB): wp_wpforms_tasks_meta - will restore as: 36_wpforms_tasks_meta
+0002.237 () An error (1) occurred: Variable 'sql_mode' can't be set to the value of 'NULL' - SQL query was (type=0): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0002.296 () Unlocking database and leaving maintenance mode
+0002.296 () Désactivation du mode maintenance&#8230;
+0002.296 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0002.300 () Atomic restore: renaming new table (36_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0002.306 () Finished: lines processed: 121 in 2.27 seconds
+0002.307 () Cleaning up rubbish...
+0002.307 () Begin search and replace (updraftplus_restored_db)
+0002.307 () [Database-replace-site-url] Database: search and replace site URL
+0002.307 () This option was not selected.
+0002.358 () Entity: plugins
+0002.359 () restore_backup(backup_file=backup_2024-02-26-1224_Portfolio_c3f7067588cb-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:48:"C:\xampp\htdocs\ali-portfolio/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0002.359 () Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-plugins.zip, 32.1 MB)
+0002.360 () Unzipping backup_2024-02-26-1224_Portfolio_c3f7067588cb-plugins.zip to C:/xampp/htdocs/ali-portfolio/wp-content/upgrade/7a35ea6c/ using UpdraftPlus_ZipArchive, starting index 0
+0002.638 () Unzip progress: 1082 out of 6248 files (772 B, plugins/akismet/.htaccess)
+0003.120 () Unzip progress: 2083 out of 6248 files (56 MB, plugins/elementor/assets/lib/eicons/css/elementor-icons.css)
+0003.518 () Unzip progress: 3084 out of 6248 files (69.7 MB, plugins/simply-static/vendor/composer/InstalledVersions.php)
+0003.954 () Unzip progress: 4085 out of 6248 files (94.1 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/StaticClient.php)
+0004.411 () Unzip progress: 5086 out of 6248 files (109.6 MB, plugins/wpforms-lite/assets/js/components/admin/builder/context-menu.min.js)
+0004.797 () Unzip progress: 6087 out of 6248 files (119.4 MB, plugins/wpforms-lite/vendor_prefixed/stripe/stripe-php/lib/Service/Tax/RegistrationService.php)
+0004.861 () Unzip progress: 6248 out of 6248 files (119.9 MB, plugins/wpforms-lite/wpforms.php)
+0004.863 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.863 () Moving old data: can potentially use wp_filesystem method / -old
+0004.863 () Moving old data out of the way...
+0005.363 () Top-level entities being moved: akismet, astra-sites, elementor, hello.php, image-optimization, index.php, simply-static, updraftplus, wpforms-lite
+0005.382 () Moving unpacked backup into place...
+0005.870 () Top-level entities being moved: akismet, astra-sites, elementor, hello.php, image-optimization, index.php, simply-static, updraftplus, wpforms-lite
+0005.888 () Cleaning up rubbish...
+0005.892 () Entity: themes
+0005.892 () restore_backup(backup_file=backup_2024-02-26-1224_Portfolio_c3f7067588cb-themes.zip, type=themes, info=a:3:{s:4:"path";s:47:"C:\xampp\htdocs\ali-portfolio/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0005.892 () Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-themes.zip, 19 MB)
+0005.893 () Unzipping backup_2024-02-26-1224_Portfolio_c3f7067588cb-themes.zip to C:/xampp/htdocs/ali-portfolio/wp-content/upgrade/7fea3c9c/ using UpdraftPlus_ZipArchive, starting index 0
+0006.503 () Unzip progress: 1002 out of 1561 files (16.7 MB, themes/astra/inc/metabox/extend-metabox/css/minified/metabox-rtl.min.css)
+0006.810 () Unzip progress: 1561 out of 1561 files (33.6 MB, themes/twentytwentytwo/theme.json)
+0006.811 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.812 () Moving old data: can potentially use wp_filesystem method / -old
+0006.812 () Moving old data out of the way...
+0006.947 () Top-level entities being moved: astra, index.php, twentytwentyfour, twentytwentyone, twentytwentythree, twentytwentytwo
+0006.956 () Moving unpacked backup into place...
+0007.089 () Top-level entities being moved: astra, index.php, twentytwentyfour, twentytwentyone, twentytwentythree, twentytwentytwo
+0007.096 () Cleaning up rubbish...
+0007.104 () Entity: uploads
+0007.104 () restore_backup(backup_file=backup_2024-02-26-1224_Portfolio_c3f7067588cb-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:48:"C:\xampp\htdocs\ali-portfolio/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0007.105 () Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-uploads.zip, 51.7 MB)
+0007.105 () Unzipping backup_2024-02-26-1224_Portfolio_c3f7067588cb-uploads.zip to C:/xampp/htdocs/ali-portfolio/wp-content/upgrade/eeb20851/ using UpdraftPlus_ZipArchive, starting index 0
+0007.560 () Unzip progress: 798 out of 798 files (78.2 MB, uploads/wpforms/cache/templates.json)
+0007.561 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.562 () Moving old data: can potentially use wp_filesystem method / -old
+0007.562 () Moving old data out of the way...
+0007.634 () Moving unpacked backup into place...
+0007.701 () Cleaning up rubbish...
+0007.708 () Entity: others
+0007.708 () restore_backup(backup_file=backup_2024-02-26-1224_Portfolio_c3f7067588cb-others.zip, type=others, info=a:2:{s:4:"path";s:40:"C:\xampp\htdocs\ali-portfolio/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0007.708 () Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-others.zip, 1.4 MB)
+0007.709 () Unzipping backup_2024-02-26-1224_Portfolio_c3f7067588cb-others.zip to C:/xampp/htdocs/ali-portfolio/wp-content/upgrade/a7d19556/ using UpdraftPlus_ZipArchive, starting index 0
+0007.780 () Unzip progress: 137 out of 137 files (5.2 MB, languages/themes/twentytwentytwo-fr_FR.po)
+0007.784 () Cleaning up rubbish...
+0007.799 () Elementor's clear cache method exists and will be executed
+0007.825 () Restore successful!
+0007.825 () Restore successful

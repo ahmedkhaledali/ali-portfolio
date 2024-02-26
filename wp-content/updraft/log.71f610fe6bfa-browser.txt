@@ -1,0 +1,118 @@
+0000.017 (R) [notice] Looking for db archive: file name: backup_2024-02-26-1224_Portfolio_c3f7067588cb-db.gz
+0000.017 (R) [notice] Archive is expected to be size: 2435.2 KB: OK
+0000.019 (R) [notice] Looking for plugins archive: file name: backup_2024-02-26-1224_Portfolio_c3f7067588cb-plugins.zip
+0000.020 (R) [notice] Archive is expected to be size: 32859.9 KB: OK
+0000.022 (R) [notice] Looking for themes archive: file name: backup_2024-02-26-1224_Portfolio_c3f7067588cb-themes.zip
+0000.022 (R) [notice] Archive is expected to be size: 19415.3 KB: OK
+0000.024 (R) [notice] Looking for uploads archive: file name: backup_2024-02-26-1224_Portfolio_c3f7067588cb-uploads.zip
+0000.024 (R) [notice] Archive is expected to be size: 52914.3 KB: OK
+0000.026 (R) [notice] Looking for others archive: file name: backup_2024-02-26-1224_Portfolio_c3f7067588cb-others.zip
+0000.026 (R) [notice] Archive is expected to be size: 1482.4 KB: OK
+0000.027 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.030 (R) [notice] Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-db.gz, 2.4 Mb)
+0000.033 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.078 (R) [notice] Activation du mode maintenance&#8230;
+0000.100 (R) [notice] Backup of: http://localhost:8080/ali-portfolio
+0000.101 (R) [notice] Content URL: http://localhost:8080/ali-portfolio/wp-content
+0000.102 (R) [notice] Uploads URL: http://localhost:8080/ali-portfolio/wp-content/uploads
+0000.102 (R) [notice] Old table prefix: wp_
+0000.102 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.103 (R) [notice] Site information: multisite = 0
+0000.103 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.106 (R) [notice] New table prefix: 36_
+0000.108 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: 36_options
+0000.527 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.535 (R) [notice] Atomic restore: renaming new table (36_options) to final table name (wp_options)
+0000.638 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: 36_users
+0000.654 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.660 (R) [notice] Atomic restore: renaming new table (36_users) to final table name (wp_users)
+0000.665 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: 36_usermeta
+0000.681 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.691 (R) [notice] Atomic restore: renaming new table (36_usermeta) to final table name (wp_usermeta)
+0000.698 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_actions - will restore as: 36_actionscheduler_actions
+0000.726 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.733 (R) [notice] Atomic restore: renaming new table (36_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.742 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_claims - will restore as: 36_actionscheduler_claims
+0000.754 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.760 (R) [notice] Atomic restore: renaming new table (36_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.766 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_groups - will restore as: 36_actionscheduler_groups
+0000.782 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.790 (R) [notice] Atomic restore: renaming new table (36_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.796 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_logs - will restore as: 36_actionscheduler_logs
+0000.815 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.821 (R) [notice] Atomic restore: renaming new table (36_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.826 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: 36_commentmeta
+0000.835 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.842 (R) [notice] Atomic restore: renaming new table (36_commentmeta) to final table name (wp_commentmeta)
+0000.847 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: 36_comments
+0000.864 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.868 (R) [notice] Atomic restore: renaming new table (36_comments) to final table name (wp_comments)
+0000.875 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: 36_links
+0000.884 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.890 (R) [notice] Database queries processed: 50 in 0.86 seconds
+0000.890 (R) [notice] Atomic restore: renaming new table (36_links) to final table name (wp_links)
+0000.895 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: 36_postmeta
+0001.504 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.522 (R) [notice] Atomic restore: renaming new table (36_postmeta) to final table name (wp_postmeta)
+0001.532 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: 36_posts
+0001.749 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0001.761 (R) [notice] Atomic restore: renaming new table (36_posts) to final table name (wp_posts)
+0001.770 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: 36_term_relationships
+0001.796 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0001.808 (R) [notice] Atomic restore: renaming new table (36_term_relationships) to final table name (wp_term_relationships)
+0001.813 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: 36_term_taxonomy
+0001.831 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0001.837 (R) [notice] Atomic restore: renaming new table (36_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.843 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: 36_termmeta
+0001.860 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0001.866 (R) [notice] Atomic restore: renaming new table (36_termmeta) to final table name (wp_termmeta)
+0001.874 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: 36_terms
+0001.887 (R) [notice] Database queries processed: 100 in 1.85 seconds
+0001.890 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0001.897 (R) [notice] Atomic restore: renaming new table (36_terms) to final table name (wp_terms)
+0001.902 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: 36_e_events
+0001.913 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0001.918 (R) [notice] Atomic restore: renaming new table (36_e_events) to final table name (wp_e_events)
+0001.925 (R) [notice] Processing table (InnoDB):  wp_simply_static_pages - will restore as: 36_simply_static_pages
+0002.176 (R) [notice] Atomic restore: dropping original table (wp_simply_static_pages)
+0002.180 (R) [notice] Atomic restore: renaming new table (36_simply_static_pages) to final table name (wp_simply_static_pages)
+0002.184 (R) [notice] Processing table (InnoDB):  wp_wpforms_payment_meta - will restore as: 36_wpforms_payment_meta
+0002.195 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0002.198 (R) [notice] Atomic restore: renaming new table (36_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0002.204 (R) [notice] Processing table (InnoDB):  wp_wpforms_payments - will restore as: 36_wpforms_payments
+0002.218 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payments)
+0002.223 (R) [notice] Atomic restore: renaming new table (36_wpforms_payments) to final table name (wp_wpforms_payments)
+0002.228 (R) [notice] Processing table (InnoDB):  wp_wpforms_tasks_meta - will restore as: 36_wpforms_tasks_meta
+0002.236 (R) [notice] An error (1) occurred: - Variable 'sql_mode' can't be set to the value of 'NULL' - the database query being run was: /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0002.296 (R) [notice] Désactivation du mode maintenance&#8230;
+0002.296 (R) [notice] Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0002.300 (R) [notice] Atomic restore: renaming new table (36_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0002.306 (R) [notice] Finished: lines processed: 121 in 2.27 seconds
+0002.307 (R) [notice] Cleaning up rubbish...
+0002.307 (R) [notice] This option was not selected.
+0002.359 (R) [notice] Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-plugins.zip, 32.1 MB)
+0002.638 (R) [notice] Unzip progress: 1082 out of 6248 files (772 B, plugins/akismet/.htaccess)
+0003.120 (R) [notice] Unzip progress: 2083 out of 6248 files (56 MB, plugins/elementor/assets/lib/eicons/css/elementor-icons.css)
+0003.518 (R) [notice] Unzip progress: 3084 out of 6248 files (69.7 MB, plugins/simply-static/vendor/composer/InstalledVersions.php)
+0003.954 (R) [notice] Unzip progress: 4085 out of 6248 files (94.1 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/StaticClient.php)
+0004.411 (R) [notice] Unzip progress: 5086 out of 6248 files (109.6 MB, plugins/wpforms-lite/assets/js/components/admin/builder/context-menu.min.js)
+0004.797 (R) [notice] Unzip progress: 6087 out of 6248 files (119.4 MB, plugins/wpforms-lite/vendor_prefixed/stripe/stripe-php/lib/Service/Tax/RegistrationService.php)
+0004.861 (R) [notice] Unzip progress: 6248 out of 6248 files (119.9 MB, plugins/wpforms-lite/wpforms.php)
+0004.863 (R) [notice] Moving old data out of the way...
+0005.382 (R) [notice] Moving unpacked backup into place...
+0005.888 (R) [notice] Cleaning up rubbish...
+0005.892 (R) [notice] Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-themes.zip, 19 MB)
+0006.503 (R) [notice] Unzip progress: 1002 out of 1561 files (16.7 MB, themes/astra/inc/metabox/extend-metabox/css/minified/metabox-rtl.min.css)
+0006.810 (R) [notice] Unzip progress: 1561 out of 1561 files (33.6 MB, themes/twentytwentytwo/theme.json)
+0006.812 (R) [notice] Moving old data out of the way...
+0006.956 (R) [notice] Moving unpacked backup into place...
+0007.096 (R) [notice] Cleaning up rubbish...
+0007.105 (R) [notice] Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-uploads.zip, 51.7 MB)
+0007.559 (R) [notice] Unzip progress: 798 out of 798 files (78.2 MB, uploads/wpforms/cache/templates.json)
+0007.562 (R) [notice] Moving old data out of the way...
+0007.634 (R) [notice] Moving unpacked backup into place...
+0007.702 (R) [notice] Cleaning up rubbish...
+0007.708 (R) [notice] Unpacking backup... (backup_2024-02-26-1224_Portfolio_c3f7067588cb-others.zip, 1.4 MB)
+0007.780 (R) [notice] Unzip progress: 137 out of 137 files (5.2 MB, languages/themes/twentytwentytwo-fr_FR.po)
+0007.784 (R) [notice] Cleaning up rubbish...
+0007.825 (R) [notice] Restore successful!
